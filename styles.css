@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -39,7 +39,8 @@ body {
     gap: 24px;
 }
 
-.header-link, .header-text {
+.header-link,
+.header-text {
     font-size: 18px;
     color: rgb(185, 187, 192)
 }
@@ -72,4 +73,39 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+.random-information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 1000;
+    text-align: center;
+    padding: 50px;
+}
+
+.image-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.image-card {
+    max-width: 150px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+.image-text {
+    font-size: 16px;
+    color: rgb(67, 72, 84);
+    text-align: center;
+    padding: 5px 0px;
 }
