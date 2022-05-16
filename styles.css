@@ -40,7 +40,8 @@ body {
 }
 
 .header-link,
-.header-text {
+.header-text,
+.copyright {
     font-size: 18px;
     color: rgb(185, 187, 192)
 }
@@ -173,4 +174,12 @@ body {
     border-color: white;
     border-width: 2px;
     border-style: solid;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
